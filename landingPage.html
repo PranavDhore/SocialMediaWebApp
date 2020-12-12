@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/landingPage.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> <!-- to use Font Awesome in html. This need to be in <head></head> tags to work -->
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
+    <title>DYPian Studio</title>
+</head>
+<body>
+
+  <div class="spinner-container">
+    <div class="circles">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+    <div id="progressbar"></div>
+
+    <div class="container">
+        
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <span>Close</span>
+        </div>
+
+        <header class="header">
+            <div class="img-wrapper">
+                <img src="./pictures/bg12.jpg" />
+            </div>
+            <div class="banner">
+                <h1>DYPian's Studio</h1>
+                <p>A Site To Meet Peoples With Same Hobbies...</p>
+				<button><a href="photos.php">Discover More</a></button>
+            </div>
+        </header>
+
+        <section class="sidebar">
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="./photos.php" class="menu-link" data-content="Home">Home</a>
+              </li>
+              <!-- <li class="menu-item">
+                <a href="#" class="menu-link" data-content="About Us">About Us</a>
+              </li> -->
+              <li class="menu-item">
+                <a href="./signIn.php" class="menu-link" data-content="SignIn">SignIn</a>
+              </li>
+              <li class="menu-item">
+                <a href="./signUp.php" class="menu-link" data-content="SignUP">SignUP</a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link" data-content="Contact">Contact</a>
+              </li>
+            </ul>
+            <div class="social-media">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+
+        <section>
+          <div class="container feature_section">
+            <div class="column active">
+                <div class="content">
+                    <h1>1</h1>
+                    <div class="box">
+                        <h2>What Is Lorem Ipsum  </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        </p>
+                    </div>
+                </div>
+                <div class="bg bg1"></div>
+            </div>
+    
+            <div class="column">
+                <div class="content">
+                    <h1>2</h1>
+                    <div class="box">
+                        <h2>What Is Lorem Ipsum  </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        </p>
+                    </div>
+                </div>
+                <div class="bg bg2"></div>
+            </div>
+    
+            <div class="column">
+                <div class="content">
+                    <h1>3</h1>
+                    <div class="box">
+                        <h2>What Is Lorem Ipsum  </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        </p>
+                    </div>
+                </div>
+                <div class="bg bg3"></div>
+            </div>
+    
+            <div class="column">
+                <div class="content">
+                    <h1>4</h1>
+                    <div class="box">
+                        <h2>What Is Lorem Ipsum  </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        </p>
+                    </div>
+                </div>
+                <div class="bg bg4"></div>
+            </div>
+        </div>
+        </section>
+
+      
+
+<!-- ============================== TODO: OUR TEAM ========================================= -->
+        <section class="team" id="anchor_team">
+            <div class="section-header">
+              <h1 class="section-heading">Our Team</h1>
+              <div class="underline"></div>
+            </div>
+          
+            <div class="cards-wrapper">
+
+                <!-- <div class="row"> -->
+                    <!-- <div class="col-lg-3"> -->
+                        <div class="card" >
+                        <div class="card-img-wrapper">
+                          <img src="./pictures/rohan.jpeg" alt="CEO" />
+                        </div>
+                        <div class="card-info">
+                          <h2>Rohan Kadu</h2>
+                          <h3>Frontend Designer</h3>
+                          <p>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, impedit!"
+                          </p>
+                        </div>
+                        </div>
+                    <!-- </div> -->
+                    <!-- <div class="col-lg-3 ">  -->
+                        <div class="card" >
+                        <div class="card-img-wrapper">
+                          <img src="./pictures/kunal.jpeg" alt="Designer" />
+                        </div>
+                        <div class="card-info">
+                          <h2>Kunal Patil</h2>
+                          <h3>Backend Developer</h3>
+                          
+                          <p>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, impedit!"
+                          </p>
+                        </div>
+                        </div>
+                    <!-- </div> -->
+                 <!-- </div> -->
+    
+                 <!-- <div class="row"> -->
+                    <!-- <div class="col-lg-3 "> -->
+                        <div class="card" >
+                        <div class="card-img-wrapper">
+                          <img src="./pictures/gaurav1.jpg" alt="Architect" />
+                        </div>
+                        <div class="card-info">
+                            <h2>Gaurav Sorte</h2>
+                            <h3>Frontend Designer</h3>
+                          <p>
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Asperiores, impedit!"
+                          </p>
+                        </div>
+                        </div>
+                    <!-- </div> -->
+                    <!-- <div class="col-lg-3 "> -->
+                        <div class="card" >
+                            <div class="card-img-wrapper">
+                              <img src="./pictures/pranav.jpeg" alt="Architect" />
+                            </div>
+                            <div class="card-info">
+                              <h2>Pranav Dhore</h2>
+                              <h3>Backend Developer</h3>
+                              <p>
+                                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Asperiores, impedit!"
+                              </p>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                <!-- </div> -->
+             
+            </div>
+          </section>
+
+        <a href="#" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+<!-- =================================TODO: Footer ============================================= -->
+        <footer class="footer-distributed">
+ 
+          <div class="footer-left">
+       
+          <h3>DYPian's <span>studio</span></h3>
+       
+          <p class="footer-links">
+          <a href="photos.php">Home</a>
+        ·
+          <a href="photos.php">Photos</a>
+        ·
+          <a href="videos.php">Videos</a>
+        ·
+          <a href="#anchor_team">About</a>
+        
+        ·
+          <a href="mailto:example@gmail.com">Contact</a>
+          </p>
+       
+          <p class="footer-company-name">DYPian's studio &copy; 2019</p>
+          </div>
+       
+          <div class="footer-center">
+       
+          <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Akurdi</span> Pune, India</p>
+          </div>
+       
+          <div>
+          <i class="fa fa-phone"></i>
+          <p>+1 555 123456</p>
+          </div>
+       
+          <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">dyp@dypianstudio.com</a></p>
+          </div>
+       
+          </div>
+       
+          <div class="footer-right">
+       
+          <p class="footer-company-about">
+          <span>About the company</span>
+            DYPian Studio is a Social Media Website Where You can Upload,  Share, View Other Peoples Hobbies &amp; SEO Learner.
+          </p>
+       
+          <div class="footer-icons">
+       
+          <a href="#" class="fa_facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="fa_twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="fa_linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="fa_github"><i class="fa fa-github"></i></a>
+       
+          </div>
+       
+          </div>
+       
+        </footer>
+    </div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./Js/landingPage.js"></script>
+</body>
+</html>

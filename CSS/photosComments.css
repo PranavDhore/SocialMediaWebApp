@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: -moz-linear-gradient(45deg, rgba(34, 100, 242, 0.5), rgba(132, 13, 161, 0.6) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(34, 100, 242, 0.5), rgba(215, 54, 255, 0.6));
+    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
+}
+.bs-example{
+    margin: 20px;
+}
+
+.card {
+    margin-top: 1rem;
+    margin-left: 20%;
+    border: none;
+    position: relative;
+    max-width: 60%;
+    padding: 1rem;
+    justify-content:center;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+  
+.card-body{
+    margin: 0;
+    font-family: Josefin-Slab ;
+}
+  
+.card-img-bottom{
+    height: 70%;
+    width: 70%;
+    margin: 1rem;
+    margin-left: 15%;
+}
+
+.commented_img{
+    margin-right: 10px;
+}
+
+.comment_image{
+    margin-bottom: 10px;
+}
+
+.post_comment_button{
+    margin-top: 10px;
+}

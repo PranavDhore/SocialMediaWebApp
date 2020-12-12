@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ::-webkit-scrollbar {
+  width: 10px;
+  background: linear-gradient(to top, #dd45fc, #1d46fd, #833ab4);
+} */
+
+.bs-example{
+    margin: 20px;
+}
+
+.nav_brand{
+    font-size: 22px;
+}
+
+.card{
+  position: relative;
+    max-height: 60%;
+    max-width: 60%;
+    opacity: 0.9;
+    justify-self: center;
+    margin-left: 335px;
+    margin: 5% 25% 5% 25%;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+/* .card_img{
+    border-radius: 50%;
+    padding: 0;
+    max-width: 80%;
+    max-height: 80%;
+    margin: 10%;
+} */
+
+.card_button {
+  margin: 10px 10px;
+} 
+
+.fname{
+  font-weight: 800;
+}
+
+.username{
+  font-weight: 600;
+}
+
+.profile_image{
+  width: 100%;
+  height: 400px;
+  border-radius: 0;
+  justify-self: center;
+  
+}
+
+.modal_image{
+  width: 100%;
+  height: 450px;
+}
+
+.modal_button{
+  position: absolute;
+  top: 21.5rem;
+  right: 1.5rem;
+}
+
+#myModal{
+  justify-self: center;
+  transition: ease-in-out 0.5s;
+}
+
+#myUpdateModal{
+  justify-self: center;
+  transition: ease-in-out 0.5s;
+}
+
+
+.form .success input {
+  border-color: #2ecc71;
+  border-width: 3px;
+  transition: 0.5s;
+  /* width: 25rem; */
+}
+
+.form .error input {
+  border-color: #e74c3c;
+  border-width: 3px;
+  /* width: 25rem; */
+}
+
+.form i {
+  visibility: hidden;
+  position: relative;
+  display: flex;
+  float: right;
+  right: 10px;
+}
+
+.form .success i.fa-check-circle {
+	color: #2ecc71;
+  visibility: visible;
+  top: 10px;
+  right:350px;
+  transition: 0.5s;
+}
+
+.form .error i.fa-exclamation-circle {
+	color: #e74c3c;
+  visibility: visible;
+  top: 10px;
+  right:170px;
+  transition: 0.5s;
+}
+
+.form small {
+	color: #e74c3c;
+	position: relative;
+	left: 45px;
+  visibility: hidden;
+  /* margin: 10px; */
+}
+
+
+.form .error small {
+  visibility: visible;
+  font-weight: bolder;
+  margin-left: -35px;
+  transition: 0.5s;
+}

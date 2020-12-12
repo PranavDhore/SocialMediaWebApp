@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat";
+  background-image: url("../Pictures/bg13.jpg");
+  background-color: white;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body header {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  text-shadow: 4px 4px #000000;
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+.nav_brand{
+  margin: 10px;
+}
+
+.container {
+  width: 45%;
+  height: auto;
+  margin: 5% auto 15% auto;
+  overflow: hidden;
+  float: center;
+}
+
+label {
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.submit_button {
+  float: left;
+  font-family: "Montserrat";
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.submit_button button {
+  font-size: 18px;
+  font-weight: bold;
+  border: black;
+  border-style: solid;
+  border-radius: 15px;
+  float: left;
+}
+
+
+.input {
+  width: 100%;
+}
+.form .success input {
+  border-color: #2ecc71;
+  border-width: 3px;
+  transition: 0.5s;
+  /* width: 25rem; */
+}
+.form .success select {
+  border-color: #2ecc71;
+  border-width: 3px;
+  transition: 0.5s;
+  /* width: 25rem; */
+}
+
+.form .error input {
+  border-color: #e74c3c;
+  border-width: 3px;
+  /* width: 25rem; */
+}
+
+.form .error select {
+  border-color: #e74c3c;
+  border-width: 3px;
+  transition: 0.5s;
+
+  /* width: 25rem; */
+}
+
+.form i {
+  visibility: hidden;
+  position: relative;
+  display: flex;
+  float: right;
+  right: 10px;
+}
+
+.form .success i.fa-check-circle {
+	color: #2ecc71;
+  visibility: visible;
+  top: -27px;
+  transition: 0.5s;
+}
+
+.form .error i.fa-exclamation-circle {
+	color: #e74c3c;
+  visibility: visible;
+  top: -27px;
+  right: -5px;
+  transition: 0.5s;
+}
+
+.form small {
+	color: #e74c3c;
+	position: relative;
+	left: 45px;
+  visibility: hidden;
+  /* margin: 10px; */
+}
+
+
+.form .error small {
+  visibility: visible;
+  font-weight: bolder;
+  margin-left: -35px;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 90%;
+  }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.bs-example{
+    margin: 20px;
+}
+
+body{
+    justify-content: auto;
+    align-items: auto;
+}
+
+.navbar-nav{
+    justify-content: space-around;
+}
+
+.nav_brand{
+  font-size: 22px;
+}
+
+.card{
+  margin-top: 1rem;
+  margin-left: 20%;
+  border: none;
+  position: relative;
+  max-width: 60%;
+  padding: 1rem;
+  justify-content:center;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+  
+  .card-body{
+    margin: 0;
+    font-family: Josefin-Slab ;
+  }
+  
+ 
+.card_image{
+  margin: 5% 10% 5% 10%;
+
+}
+  .card-text{
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .comment_img{
+    height:50px;
+    width: 50px;
+}
+
+.clg_name{
+  visibility: hidden;
+}
+

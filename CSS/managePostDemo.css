@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bs-example{
+    margin: 20px;
+}
+
+.table{
+    margin-top: 1rem;
+}
+
+.nav_brand{
+    font-size: 22px;
+}
